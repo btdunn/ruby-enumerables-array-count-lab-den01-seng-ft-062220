@@ -9,4 +9,5 @@ def count_empty_strings(array)
   array.count do |s|
     s.length < 1
   end
+  end
 end
